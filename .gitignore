@@ -1,0 +1,57 @@
+# Build folders
+bin/
+obj/
+Debug/
+Release/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+.history/
+
+# =========================
+# Node (if you ever use it)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.local
+
+# =========================
+# Build / Dist folders (if you use tools later)
+# =========================
+dist/
+build/
+.cache/
+.vite/
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Temporary files
+# =========================
+temp/
+*.tmp
+*.temp
+*.swp
+

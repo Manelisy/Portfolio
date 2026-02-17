@@ -1,0 +1,36 @@
+.body {
+    background-color: rgb(49, 10, 85);
+}
+.txt-center {
+    text-align: center;
+    color: white;
+}
+
+.trans-50 {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: 10px;
+}
+
+.border-slim{
+    border-bottom: 0.1px solid rgba(255, 255, 255, 0.2);
+}
+
+.main-txt{
+    padding-top: 200px;
+}
+
+.custom-pill {
+  background-color: #7c3aed; /* vibrant purple */
+  color: white;
+  border: 1px solid #6b2fc2; /* slightly darker purple border */
+  border-radius: 50rem;      /* pill shape */
+  padding: 0.5rem 2rem;      /* size and spacing */
+  font-weight: 500;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: none;
+  transition: background-color 0.3s ease;
+}
+
+.custom-pill:hover {
+  background-color: #6b2fc2; /* darker on hover */
+}
