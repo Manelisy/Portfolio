@@ -34,3 +34,9 @@
 .custom-pill:hover {
   background-color: #6b2fc2; /* darker on hover */
 }
+
+::placeholder {
+  color: lightgray !important; /* Changes the placeholder text color to grey */
+  opacity: 0.1; /* Ensures the color is applied in all browsers */
+  font-weight: lighter; /* Makes the placeholder text lighter */
+}
