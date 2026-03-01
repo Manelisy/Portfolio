@@ -1,9 +1,19 @@
 * {
   box-sizing: border-box !important;
 }
+
 .body {
-    background-color: rgb(49, 10, 85);
-}
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+
+canvas {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1; /* puts canvas behind content */
+    }
+
 .txt-center {
     text-align: center;
     color: white;
