@@ -3,7 +3,7 @@ alert("Please note that this portfolio is currently under development. Some feat
 const c = document.getElementById("myCanvas");
 const ctx = c.getContext("2d");
 
-// Make canvas full screen
+/* Make canvas full screen
 function resizeCanvas() {
     c.width = window.innerWidth;
     c.height = window.innerHeight;
@@ -22,4 +22,4 @@ function resizeCanvas() {
 }
 
 resizeCanvas();
-window.addEventListener("resize", resizeCanvas);
+window.addEventListener("resize", resizeCanvas);*/
