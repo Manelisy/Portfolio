@@ -5,14 +5,14 @@
 .body {
     margin: 0;
     padding: 0;
-    overflow: scroll;
-
-canvas {
+    background: linear-gradient(to right,#521B61, #240F48);
+}
+/*canvas {
         position: fixed;
         top: 0;
         left: 0;
-        z-index: -1; /* puts canvas behind content */
-    }
+        z-index: -1; /* puts canvas behind content 
+    }*/
 
 .txt-center {
     text-align: center;
