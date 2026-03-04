@@ -7,12 +7,14 @@
     padding: 0;
     background: linear-gradient(to right,#521B61, #240F48);
 }
-/*canvas {
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: -1; /* puts canvas behind content 
-    }*/
+section {
+        height: 100vh !important;
+        padding-top: 50px !important;
+        justify-content: center; /* Centers horizontally */
+        align-items: center;     /* Centers vertically */
+        text-align: center;
+        color: white;
+    }
 
 .txt-center {
     text-align: center;
