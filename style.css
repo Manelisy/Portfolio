@@ -5,21 +5,16 @@
 .body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right,#521B61, #240F48);
+    background: linear-gradient(to right, #29104A,#501A60);
 }
 section {
-        height: 100vh !important;
+        min-height: 100vh !important;
         padding-top: 50px !important;
         justify-content: center; /* Centers horizontally */
         align-items: center;     /* Centers vertically */
         text-align: center;
         color: white;
     }
-
-.txt-center {
-    text-align: center;
-    color: white;
-}
 
 .trans-50 {
     background-color: rgba(255, 255, 255, 0.1) !important;
@@ -30,6 +25,10 @@ section {
     border-bottom: 0.1px solid rgba(255, 255, 255, 0.2);
 }
 
+.full-border-slim{
+    border: 0.1px solid rgba(255, 255, 255, 0.2);
+}
+
 .main-txt{
     padding-top: 200px;
 }
@@ -37,13 +36,10 @@ section {
 .custom-pill {
   background-color: #7c3aed; /* vibrant purple */
   color: white;
-  border: 1px solid #6b2fc2; /* slightly darker purple border */
   border-radius: 50rem;      /* pill shape */
   padding: 0.5rem 2rem;      /* size and spacing */
   font-weight: 500;
   font-family: 'Segoe UI', sans-serif;
-  box-shadow: none;
-  transition: background-color 0.3s ease;
 }
 
 .custom-pill:hover {
