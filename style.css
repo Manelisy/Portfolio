@@ -10,7 +10,7 @@ body {
 .container {
     position: relative; /* Establishes a new stacking context for the SVG */
 }
-svg {
+.graphic {
   position: absolute; /* Positions the SVG absolutely within the body */
   left: 0%; /* Aligns the SVG to the left edge */
   z-index: -1;  /*Ensures the SVG is behind other content */
