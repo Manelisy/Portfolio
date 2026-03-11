@@ -2,10 +2,18 @@
   box-sizing: border-box !important;
 }
 
-.body {
+body {
     margin: 0;
     padding: 0;
     background: linear-gradient(to right, #29104A,#501A60);
+}
+.container {
+    position: relative; /* Establishes a new stacking context for the SVG */
+}
+svg {
+  position: absolute; /* Positions the SVG absolutely within the body */
+  left: 0%; /* Aligns the SVG to the left edge */
+  z-index: -1;  /*Ensures the SVG is behind other content */
 }
 section {
         min-height: 100vh !important;
@@ -51,3 +59,10 @@ section {
   opacity: 0.1; /* Ensures the color is applied in all browsers */
   font-weight: lighter; /* Makes the placeholder text lighter */
 }
+
+input {
+  background-color: transparent !important; /* Makes the input background transparent */
+  border: 0.1px solid rgba(255, 255, 255, 0.2) !important; /* Adds a thin border */
+  color: white !important; /* Sets the text color to white */
+}
+
